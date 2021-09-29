@@ -20,10 +20,10 @@ El atributo por defecto sería el type, cogiendo javascript como lenguaje
 # 4.-Atributos booleanos. Qué implican.
 <img src="legend.svg" alt="leyenda">
 Los atributos booleanos serían **async** y **defer.**
-**async:** Provoca que se descargue el script de manera asíncrona al código html, cuando el script está listo, el html se para y se ejecuta el script, para así no tener problemas con el html, entonces cuando se ejecuta el script, el html reanuda su descarga.
+**async:** Provoca que se descargue el script de manera asíncrona al código html, cuando el script está listo, el html se para y se ejecuta el script, para así no tener problemas con el html, entonces cuando se ejecuta el script, el html reanuda su descarga.<br>
 <img src="script-async.svg" alt="muestra asycn">
 
-**defer:** Provoca al igual que async la descarga asincrona del script y el html, pero a diferencia de este, el script se ejecuta una vez se haya descargado por completo el html.
+**defer:** Provoca al igual que async la descarga asincrona del script y el html, pero a diferencia de este, el script se ejecuta una vez se haya descargado por completo el html.<br>
 <img src="script-defer.svg" alt="muestra defer">
 
 # 5.-Sitio recomendado para colocar la etiqueta script.
